@@ -8,13 +8,13 @@ const dockerHub = "https://registry-1.docker.io";
 const routes = {
   // production
   "docker.rueyshare.store": dockerHub,
-  "quay.libcuda.so": "https://quay.io",
-  "gcr.libcuda.so": "https://gcr.io",
-  "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-  "k8s.libcuda.so": "https://registry.k8s.io",
-  "ghcr.libcuda.so": "https://ghcr.io",
-  "cloudsmith.libcuda.so": "https://docker.cloudsmith.io",
-  "ecr.libcuda.so": "https://public.ecr.aws",
+  "quay.rueyshare.store": "https://quay.io",
+  "gcr.rueyshare.store": "https://gcr.io",
+  "k8s-gcr.rueyshare.store": "https://k8s.gcr.io",
+  "k8s.rueyshare.store": "https://registry.k8s.io",
+  "ghcr.rueyshare.store": "https://ghcr.io",
+  "cloudsmith.rueyshare.store": "https://docker.cloudsmith.io",
+  "ecr.rueyshare.store": "https://public.ecr.aws",
 
   // staging
   "docker-staging.libcuda.so": dockerHub,
