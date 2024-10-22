@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.rueyshare.store": dockerHub,
-  "quay.rueyshare.store": "https://quay.io",
-  "gcr.rueyshare.store": "https://gcr.io",
-  "k8s-gcr.rueyshare.store": "https://k8s.gcr.io",
-  "k8s.rueyshare.store": "https://registry.k8s.io",
-  "ghcr.rueyshare.store": "https://ghcr.io",
-  "cloudsmith.rueyshare.store": "https://docker.cloudsmith.io",
-  "ecr.rueyshare.store": "https://public.ecr.aws",
+  "docker.rueyshare.online": dockerHub,
+  "quay.rueyshare.online": "https://quay.io",
+  "gcr.rueyshare.online": "https://gcr.io",
+  "k8s-gcr.rueyshare.online": "https://k8s.gcr.io",
+  "k8s.rueyshare.online": "https://registry.k8s.io",
+  "ghcr.rueyshare.online": "https://ghcr.io",
+  "cloudsmith.rueyshare.online": "https://docker.cloudsmith.io",
+  "ecr.rueyshare.online": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker.rueyshare.online": dockerHub,
 };
 
 function routeByHosts(host) {
